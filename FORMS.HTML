@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(120deg, #00c6ff, #0072ff);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    form {
+        background: #fff;
+        padding: 25px 30px;
+        border-radius: 10px;
+        width: 350px;
+        align-items: center;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    hr {
+        margin: 15px 0 25px;
+    }
+
+    div {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+        color: #444;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: 0.3s;
+    }
+
+    input:focus {
+        border-color: #056a31;
+        box-shadow: 0 0 5px rgba(4, 226, 96, 0.4);
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        background: #12f024;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #085603;
+    }
+</style>
+
+    </style>
+</head>
+
+<body>
+    <H1>FORMS IN HTML</H1>
+    <HR>
+    <FORM ACTION="/SUBMIT.PHP">
+        <DIV>
+        <label for="NAME">NAME</label>
+        <INPUT ID="NAME" TYPE="TEXT" PLACEHOLDER="ENTER YOUR NAME">
+        </DIV>
+        <DIV>
+        <label for="PH">PHONE</label>
+        <INPUT ID="tel" TYPE="tel" PLACEHOLDER="ENTER YOUR PHONE">
+        </DIV>
+        <DIV>
+        <label for="MAIL">E-MAIL</label>
+        <INPUT ID="MAIL" TYPE="MAIL" PLACEHOLDER="ENTER YOUR E MAIL">
+        </DIV>
+        <DIV>
+        <label for="DOB">DOB</label>
+        <INPUT ID="DOB" TYPE="date" required>
+        </DIV>
+        <DIV>
+        <label for="PASSWORD">PASSWORD</label>
+        <INPUT ID="PASSWORD" TYPE="password" PLACEHOLDER="ENTER YOUR PASSWORD">
+        </DIV>
+        <div>
+            <button type="SUBMIT">submit</button>
+        </div>
+        </FORM>
+
+
+</body>
+
+</html>
